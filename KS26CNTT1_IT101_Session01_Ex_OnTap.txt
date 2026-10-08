@@ -1,0 +1,35 @@
+Bài tập tổng hợp: Tech Lead của Cyber Arena
+Phần 1 – Lĩnh vực CNTT và đơn vị lưu trữ
+Chọn nhân sự: Em chọn ứng viên B vì Cyber Arena cần người biết sửa máy, lắp ráp và xử lý mạng. Những việc này cần thiết để máy chơi game và mạng hoạt động ổn định
+Sắp xếp đơn vị tăng dần: Byte → KB → MB → GB → TB
+Phần 2 – Mô hình IPO và lĩnh vực CNTT
+Input: Video trận đấu và tín hiệu từ máy quay
+Process: Máy tính xử lý và ghi lại video
+Output: Video được phát để xem lại hoặc livestream
+Storage: SSD dùng để lưu video các trận đấu
+Kỹ thuật phần mềm: Dùng để xây dựng phần mềm quay, lưu và xem lại trận đấu
+Mạng máy tính: Dùng để truyền video và livestream lên YouTube
+Phần 3 – Tính dung lượng và tốc độ mạng
+Dung lượng lưu trữ
+20 trận × 500 MB: 10.000 MB
+Đổi sang GB: 10.000 ÷ 1024 ≈ 9,77 GB
+SSD 512 GB có đủ không: Có, vì 9,77 GB nhỏ hơn 512 GB
+Dung lượng còn lại: 512 - 9,77 = 502,23 GB
+Tốc độ mạng
+100 Mbps đổi sang MB/s: 100 ÷ 8 = 12,5 MB/s
+Thời gian tải video 200 MB: 200 ÷ 12,5 = 16 giây
+Lý do thực tế lâu hơn: Tốc độ mạng thực tế có thể không đạt tối đa và còn bị ảnh hưởng bởi nhiều thiết bị cùng sử dụng mạng
+Phần 4 – Phần cứng và mô hình DIKW
+1. Chọn linh kiện nâng cấp
+Lựa chọn: Em chọn nâng cấp RAM
+Lý do: Khi vừa chơi game vừa quay và livestream, máy phải chạy nhiều tác vụ cùng lúc nên RAM dễ bị thiếu. Tăng RAM giúp máy xử lý nhiều chương trình cùng lúc ổn định hơn
+2. Áp dụng mô hình DIKW
+Data: Tuyển thủ thường chết ở phút 15–20
+Vì sao: Đây là dữ liệu được ghi nhận từ các trận đấu
+
+Information: Tuyển thủ chết nhiều ở phút 15–20 và thường do thiếu tầm nhìn bản đồ
+Vì sao: Dữ liệu đã được phân tích và có thêm thông tin về nguyên nhân
+Knowledge: Huấn luyện viên nhận ra thiếu tầm nhìn khiến tuyển thủ dễ bị bắt
+Vì sao: Đây là kết luận được rút ra từ việc xem và phân tích trận đấu
+
+Wisdom: Huấn luyện viên yêu cầu mua thêm Ward cho trận sau
